@@ -4,7 +4,7 @@ public class InputAccessLog extends ArgumentCommand {
 
 
 	public InputAccessLog() {
-		super("--accessLog=");
+		super("--accesslog=");
 	}
 
 	@Override

@@ -7,7 +7,7 @@ public class CommandList {
 	private String accessLog = "";
 	private LocalDateTime startDate;
 	private Duration duration;
-	private int threShould = 0;
+	private int threshold = 0;
 	private String arg;
 	private final static CommandList thisInstance = new CommandList();
 
@@ -51,11 +51,11 @@ public class CommandList {
 	}
 
 	public int getThreShould() {
-		return threShould;
+		return threshold;
 	}
 
 	public void setThreShould(int threShould) {
-		this.threShould = threShould;
+		this.threshold = threShould;
 	}
 
 }

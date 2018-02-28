@@ -15,8 +15,8 @@ public class TestApp {
 	String[] arguments =  {
 			"--startDate=2017-01-01.13:00:00", 
 					"--duration=hourly", 
-					"--threShould=10",
-					"--accessLog=access.log"};
+					"--threshold=10",
+					"--accesslog=access.log"};
 	
 	
 	@Test

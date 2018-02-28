@@ -5,8 +5,8 @@ public class CreateCommand {
 	public static void tryThis(String argument){
 		CommandList.getInstance().setArgToVerify(argument);
 		
-		InputThreShould inputThreShould 
-		= new InputThreShould();
+		InputThreShold inputThreShould 
+		= new InputThreShold();
 
 		InputDuration inputDuration 
 		= new InputDuration();
